@@ -1,5 +1,5 @@
 using System;
-using System.IO;  // need these to read and write files in c#
+using System.IO; 
 class Program
 {
     static void Main(string[] args)
@@ -16,22 +16,21 @@ class Program
             Console.WriteLine("4- Save");
             Console.WriteLine("5- Quit");
             Console.Write("What would you like to do? ");
-            
-            string selection = Console.ReadLine();
+            string choice = Console.ReadLine();
 
-            if (selection == "1")
+            if (choice == "1")
                 {
                     userEntry.AddEntry();
                 }   
-            else if (selection == "2")
+            else if (choice == "2")
                 {
                     userEntry.Display();
                 }
-            else if (selection == "3")
+            else if (choice == "3")
                 {
                 userEntry.Load();
                 }
-            else if (selection == "4")
+            else if (choice == "4")
                 {
                 userEntry.Save();
                 }
