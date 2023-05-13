@@ -46,6 +46,3 @@ class Program
 }
 
 
-// https://www.techiedelight.com/es/access-random-item-in-list-in-csharp/
-//https://es.stackoverflow.com
-//https://www.discoduroderoer.es/generar-numeros-aleatorios-con-c-sharp/
