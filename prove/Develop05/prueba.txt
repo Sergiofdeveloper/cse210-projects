@@ -1,0 +1,5 @@
+0
+SimpleGoal,domir,8 horas diarias,10
+SimpleGoal,comer sano,comer verduras,50
+EternalGoal,leer las escrituras ,todos los dias,50
+ChecklistGoal,templo,ir todos los meses,80,3,500

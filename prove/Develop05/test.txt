@@ -1,0 +1,4 @@
+0
+SimpleGoal,comer,cada hora,10
+EternalGoal,orar,todos los dias,20
+ChecklistGoal,templo,todos los meses,100,0,1000
