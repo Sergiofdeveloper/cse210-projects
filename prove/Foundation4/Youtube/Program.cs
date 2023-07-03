@@ -15,7 +15,7 @@ class Program
         {
             new Comment { CommenterName = "Mike", CommentText = "Great video. I love watching it" },
             new Comment { CommenterName = "Peter", CommentText = "It´s the third time in a row I watch it" },
-            new Comment { CommenterName = "Mathias", CommentText = "what a loser" }
+            new Comment { CommenterName = "Mathias", CommentText = "what a loser" },
             new Comment { CommenterName = "Rachel", CommentText = "I love what you say in the video" }
         };
         videos.Add(YouTube1);
