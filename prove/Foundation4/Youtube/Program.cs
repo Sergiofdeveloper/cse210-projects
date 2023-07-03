@@ -35,7 +35,7 @@ class Program
         Video YouTube3 = new Video();
         YouTube3.Name = "test3";
         YouTube3.Creator = "JohnDoe3";
-        YouTube3.Length = 300;
+        YouTube3.Length = 90;
         YouTube3.Comments = new List<Comment>
         {
             new Comment { CommenterName = "User F", CommentText = "Comment 1 for Video 3" },
@@ -43,7 +43,7 @@ class Program
             
         };
         videos.Add(YouTube3);
-        
+
         foreach (Video video in videos)
         {
             Console.WriteLine("Name: " + video.Name);
