@@ -27,8 +27,8 @@ class Program
         YouTube2.Length = 60;
         YouTube2.Comments = new List<Comment>
         {
-            new Comment { CommenterName = "User D", CommentText = "Comment 1 for Video 2" },
-            new Comment { CommenterName = "User E", CommentText = "Comment 2 for Video 2" }
+            new Comment { CommenterName = "Robin89", CommentText = "I´d like to try it myself" },
+            new Comment { CommenterName = "Milkman", CommentText = "Dont watch it, its a waste of time" }
         };
         videos.Add(YouTube2);
 
@@ -38,8 +38,9 @@ class Program
         YouTube3.Length = 90;
         YouTube3.Comments = new List<Comment>
         {
-            new Comment { CommenterName = "User F", CommentText = "Comment 1 for Video 3" },
-            new Comment { CommenterName = "User G", CommentText = "Comment 2 for Video 3" },
+            new Comment { CommenterName = "PacMan", CommentText = "I think I´ve seen this before" },
+            new Comment { CommenterName = "User81anton", CommentText = "Please share, @user81anton" },
+            new Comment { CommenterName = "angelus23", CommentText = "Shut up and take my money!" },
             
         };
         videos.Add(YouTube3);
