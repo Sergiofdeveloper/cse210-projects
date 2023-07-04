@@ -5,10 +5,10 @@ class Program
 {
     static void Main()
     {
-        Product product1 = new Product("Item1", "P1", 2.00, 5);
-        Product product2 = new Product("Item2", "P2", 3.50, 10);
-        Product product3 = new Product("Item3", "P3", 5.00, 4);
-        Product product4 = new Product("Item4", "P4", 7.50, 6);
+        Product product1 = new Product("Item1", "P1", 2.00m, 5);
+        Product product2 = new Product("Item2", "P2", 3.50m, 10);
+        Product product3 = new Product("Item3", "P3", 5.00m, 4);
+        Product product4 = new Product("Item4", "P4", 7.50m, 6);
      
         Address address1 = new Address("Calle Dinamarca 25", "Barcelona", "Cataluña", "Spain");
         Address address2 = new Address(" 17 Dove St", "New York", "New York", "USA");
